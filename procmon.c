@@ -139,7 +139,7 @@ int main(void) {
         }
 
         /* ── Dibujar ── */
-        clear();
+        erase();
         int rows, cols;
         getmaxyx(stdscr, rows, cols);
         int bar_w = 10;   /* ancho de cada barra */
